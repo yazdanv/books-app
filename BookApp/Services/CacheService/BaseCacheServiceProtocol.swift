@@ -1,0 +1,13 @@
+//
+//  BaseCacheServiceProtocol.swift
+//  BookApp
+//
+//  Created by Yazdan Vakili on 22/08/2024.
+//
+
+import Foundation
+import SwiftData
+
+protocol BaseCacheServiceProtocol {
+    var modelContext: ModelContext { get }
+}
